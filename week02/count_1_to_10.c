@@ -1,0 +1,21 @@
+/* Az #include direktíva a szükséges fejléceket importálja, ebben az esetben a <stdio.h> könyvtárat,
+ * amely biztosítja a standard bemeneti és kimeneti függvényeket, például a printf és puts függvényeket.
+ */
+#include <stdio.h> 
+
+// A program belépési pontja, a 'main' függvény, amely elindítja a program végrehajtását.
+int main() 
+{
+    // A for ciklus 1-től 10-ig végigiterál, és minden lépésben kiírja az aktuális számot.
+    for (int i = 1; i <= 10; i++)  
+    {
+        // A printf segítségével kiírjuk az aktuális 'i' értékét, amelyet egy szóköz követ.
+        printf("%d ", i);  
+    }
+
+    // A puts() függvény egy új sort ír ki, hogy a következő kimenet új sorba kerüljön.
+    puts(""); 
+
+    // A main függvény visszatérési értéke 0, amely a program sikeres befejezését jelzi.
+    return 0;  
+}
