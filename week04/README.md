@@ -41,7 +41,7 @@ A programok futtatása és fordítása a következő lépésekkel történik:
 ### **1. Fordítás**
 Nyiss egy terminált, navigálj a megfelelő mappába, és futtasd a következő parancsot:
 
-Például:
+Példa:
 ```bash
 gcc contains.c -o contains
 ```
@@ -50,7 +50,7 @@ gcc contains.c -o contains
 
 A fordított programot az alábbi módon indíthatod el:
 
-Például:
+Példa:
 ```bash
 ./contains
 ```
