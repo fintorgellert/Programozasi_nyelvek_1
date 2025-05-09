@@ -1,4 +1,4 @@
-# Tizedik hét
+# Tizenegyedik hét
 
 ## Tartalomjegyzék
 - [Bevezetés](#bevezetés)
@@ -7,7 +7,7 @@
 - [Futtatás](#futtatás)
 
 ## Bevezetés
-A tizedik hét laborjában gyakorlati problémák megoldására fókuszáltunk, amelyek során fájlkezelést, sor- és szófeldolgozást, valamint alapvető statisztikai és rendezési algoritmusokat alkalmaztunk. A cél az volt, hogy tovább mélyítsük a C programozási nyelvben szerzett ismereteinket valós életből vett feladatokon keresztül.
+A tizenegyedik hét laborjában gyakorlati problémák megoldására fókuszáltunk, amelyek során fájlkezelést, sor- és szófeldolgozást, valamint alapvető statisztikai és rendezési algoritmusokat alkalmaztunk. A cél az volt, hogy tovább mélyítsük a C programozási nyelvben szerzett ismereteinket valós életből vett feladatokon keresztül.
 
 A feldolgozott témák:
 - **Fájlkezelés**: Számok olvasása és írása fájlba.
