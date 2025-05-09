@@ -1,4 +1,4 @@
-# Kilencedik hét
+# Tizedik hét
 
 ## Tartalomjegyzék
 - [Bevezetés](#bevezetés)
@@ -7,7 +7,7 @@
 - [Futtatás](#futtatás)
 
 ## Bevezetés
-A kilencedik hét labor során a C programozásban mélyebb technikákkal és algoritmusokkal ismerkedtünk meg. A fókuszban az **algoritmusok** és a **karakterláncok manipulálása**, valamint az **adatkezelési technikák** álltak. Továbbá betekintést nyertünk a **típuskonverziók** és a **véletlenszerű számok generálásának** lehetőségeibe is.
+A tizedik hét labor során a C programozásban mélyebb technikákkal és algoritmusokkal ismerkedtünk meg. A fókuszban az **algoritmusok** és a **karakterláncok manipulálása**, valamint az **adatkezelési technikák** álltak. Továbbá betekintést nyertünk a **típuskonverziók** és a **véletlenszerű számok generálásának** lehetőségeibe is.
 
 Az alábbi témák kerültek bemutatásra:
 - **Halmazműveletek**: Halmazok uniója és különbsége.
