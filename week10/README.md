@@ -27,13 +27,13 @@ A projekt az alábbi C forráskódokat tartalmazza:
 ### Vizsga feladatok
 A következő feladatok az I. ZH feladat lehetséges megoldásait tartalmazza:
 
-- **Kedd vizsga (`tuesday_exam/`)**
+- **Kedd ZH (`tuesday_exam/`)**
   - `task1.c` – C program az első feladathoz - Számkereső.
   - `task2.c` – C program a második feladathoz - Mersenne-prímek.
   - `task3.c` – C program a harmadik feladathoz - Meteorológiai előrejelzés.
   - `task4.c` – C program a negyedik feladathoz - Eredmények útján.
 
-- **Péntek vizsga (`friday_exam/`)**
+- **Péntek ZH (`friday_exam/`)**
   - `task1.c` – C program az első feladathoz - Hatványozás.
   - `task2.c` – C program a második feladathoz - Egy kis statisztika.
   - `task3.c` – C program a harmadik feladathoz - Kavalkád.
