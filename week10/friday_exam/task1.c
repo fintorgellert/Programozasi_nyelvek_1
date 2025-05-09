@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef cahr * string;
+typedef char * string;
 
 /* Hatványozó függvény
  * -------------------

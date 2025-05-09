@@ -1,4 +1,4 @@
-# Tizedik hét
+# Kilencedik hét
 
 ## Tartalomjegyzék
 - [Bevezetés](#bevezetés)
@@ -7,35 +7,43 @@
 - [Futtatás](#futtatás)
 
 ## Bevezetés
-A tizedik hét laborjában gyakorlati problémák megoldására fókuszáltunk, amelyek során fájlkezelést, sor- és szófeldolgozást, valamint alapvető statisztikai és rendezési algoritmusokat alkalmaztunk. A cél az volt, hogy tovább mélyítsük a C programozási nyelvben szerzett ismereteinket valós életből vett feladatokon keresztül.
+A kilencedik hét labor során a C programozásban mélyebb technikákkal és algoritmusokkal ismerkedtünk meg. A fókuszban az **algoritmusok** és a **karakterláncok manipulálása**, valamint az **adatkezelési technikák** álltak. Továbbá betekintést nyertünk a **típuskonverziók** és a **véletlenszerű számok generálásának** lehetőségeibe is.
 
-A feldolgozott témák:
-- **Fájlkezelés**: Számok olvasása és írása fájlba.
-- **Szöveg- és sorfeldolgozás**: Sorok és szavak számolása, rövid szavak azonosítása.
-- **Egyszerű statisztikák**: Minimum, maximum, átlag, összeg.
-- **Alap algoritmusok**: Egyszerű rendezési algoritmus (pl. szelekciós rendezés).
-- **Véletlenszám-generálás**: Lottószám generátor készítése.
+Az alábbi témák kerültek bemutatásra:
+- **Halmazműveletek**: Halmazok uniója és különbsége.
+- **Véletlenszerű intervallumok generálása**: Hogyan generálhatunk véletlenszerű számokat.
+- **Típuskonverziók**: Hogyan konvertálhatunk adatokat egyik típusból a másikba.
+- **Karakterláncok elemzése**: Szavak és karakterek számolása.
+- **Vizsga feladatok**: Az I. ZH feladatainak megoldása.
 
 ## Fájlok áttekintése
+A projekt az alábbi C forráskódokat tartalmazza:
 
-- **`array_statistics.c`** – Tömb elemein végzett statisztikai műveletek (összeg, átlag, minimum, maximum).
-- **`count_lines.c`** – Sorok megszámlálása egy adott szövegfájlban.
-- **`filter_and_export_numbers.c`** – Fájlban szereplő számok szűrése és kiírása egy új fájlba.
-- **`random_lottery_generator.c`** – Véletlenszerű lottószámok generálása.
-- **`selection_sort_copy.c`** – Egyszerű szelekciós rendezési algoritmus implementálása.
-- **`shortest_word_finder.c`** – A legrövidebb szó megtalálása egy szövegben.
-- **`sum_real_numbers.c`** – Valós számok összeadása fájlból olvasva.
+- **`random_intervals_example.c`** – Példa a véletlenszerű intervallumok használatára C-ben.
+- **`set_operations.c`** – Halmazműveletek alapvető alkalmazása (unió, különbség stb.).
+- **`type_conversion_example.c`** – Típuskonverziók bemutatása C-ben (típusok közötti átváltás).
+- **`word_and_char_counter.c`** – Program, amely megszámolja a szavakat és karaktereket egy adott karakterláncban.
 
-### Dokumentumok
+### Vizsga feladatok
+A következő feladatok az I. ZH feladat lehetséges megoldásait tartalmazza:
 
-A `doc/` mappában bemeneti fájlokat találunk a programokhoz:
-- **`in.txt`** – Valós számokat tartalmaz a `filter_and_export_numbers.c` programhoz.
-- **`real_numbers.txt`** – Valós számokat tartalmazó fájl a `sum_real_numbers.c` programhoz.
+- **Kedd vizsga (`tuesday_exam/`)**
+  - `task1.c` – C program az első feladathoz - Számkereső.
+  - `task2.c` – C program a második feladathoz - Mersenne-prímek.
+  - `task3.c` – C program a harmadik feladathoz - Meteorológiai előrejelzés.
+  - `task4.c` – C program a negyedik feladathoz - Eredmények útján.
+
+- **Péntek vizsga (`friday_exam/`)**
+  - `task1.c` – C program az első feladathoz - Hatványozás.
+  - `task2.c` – C program a második feladathoz - Egy kis statisztika.
+  - `task3.c` – C program a harmadik feladathoz - Kavalkád.
+  - `task4.c` – C program a negyedik feladathoz - Caesar-titkosítás.
+
 
 ## Követelmények
 A programok futtatásához szükség van:
-- **C fordítóra**, például **GCC** (GNU Compiler Collection)
-- **Terminálra** vagy **Parancssorra** (Linux/Mac: Terminal, Windows: CMD vagy PowerShell)
+- **C fordítóra**, például **GCC** (GNU Compiler Collection).
+- **Terminálra** vagy **Parancssorra** (Linux/Mac: Terminal, Windows: CMD vagy PowerShell).
 
 ## Futtatás
 A programok futtatása és fordítása a következő lépésekkel történik:
@@ -45,7 +53,7 @@ Nyiss egy terminált, navigálj a megfelelő mappába, és futtasd a következő
 
 Példa:
 ```bash
-gcc filter_and_export_numbers.c -o filfilter_and_export_numberster
+gcc random_intervals_example.c -o random_intervals_example
 ```
 
 ### **2. Futtatás**
@@ -54,5 +62,5 @@ A fordított programot az alábbi módon indíthatod el:
 
 Példa:
 ```bash
-./filter_and_export_numbers
+./random_intervals_example
 ```
